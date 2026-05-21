@@ -13,10 +13,10 @@
     "test:run": "vitest run"
   },
   "dependencies": {
+    "@fluentui/react-icons": "^2.0.327",
     "@supabase/supabase-js": "^2.45.4",
     "dexie": "^4.0.8",
     "dexie-react-hooks": "^1.1.7",
-    "lucide-react": "^0.453.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.27.0",
