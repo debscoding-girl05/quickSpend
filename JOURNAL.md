@@ -21,4 +21,12 @@
 **Aujourd'hui j'ai appris :** (boilerplate généré par Claude, walkthrough prévu au Jour 1)
 **J'ai galéré sur :** rien — j'ai juste lu.
 **Demain je veux :** comprendre chaque ligne du boilerplate.
-**Note sur 10 de ma compréhension du jour :** /10
+**Note sur 10 de ma compréhension du jour : 8 /10
+
+## Jour 1- 2026-05-22
+**Aujourd'hui j'ai appris :** : tout sur les fichiers pour une structure react , 
+l'importances des pwa et en quoi consiste chaque fichier de reglage 
+-J'ai compris chaque ligne de chaque fichiers et l'importance des parametres tels que autoUpdate 
+-enforcing indexeddb array null tracker 
+
+**Note sur 10 de ma compréhension du jour : 9 /10
