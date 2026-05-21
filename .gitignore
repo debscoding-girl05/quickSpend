@@ -16,3 +16,8 @@ dev-dist
 
 coverage
 .vitest
+
+# TS incremental build artifacts
+*.tsbuildinfo
+vite.config.js
+vite.config.d.ts

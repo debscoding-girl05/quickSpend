@@ -1,1 +1,0 @@
-{"root":["./src/app.tsx","./src/main.tsx","./src/vite-env.d.ts","./src/lib/dexie.ts","./src/lib/supabase.ts","./src/lib/utils.ts","./src/types/index.ts","./tests/setup.ts"],"version":"5.9.3"}
