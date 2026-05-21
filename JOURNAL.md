@@ -28,5 +28,8 @@
 l'importances des pwa et en quoi consiste chaque fichier de reglage 
 -J'ai compris chaque ligne de chaque fichiers et l'importance des parametres tels que autoUpdate 
 -enforcing indexeddb array null tracker 
+-L'importance de l'utilisation de zod car il est operationnelle a l'execution 
+-l'importance de check le typescript avant de faire le bundle 
+-les erreurs de build possibles face a un deplacement ou manque de liaison dans les config Ò
 
 **Note sur 10 de ma compréhension du jour : 9 /10
