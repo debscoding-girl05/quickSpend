@@ -46,3 +46,13 @@ l'importances des pwa et en quoi consiste chaque fichier de reglage
 - ensuite on a tester si les policy instaurés passe bien
 
 \*\*Note sur 10 de ma compréhension du jour : 8 /10
+
+## Jour 3- 2026-05-31
+
+**Aujourd'hui j'ai appris :**
+
+- on peut gerer les state et rendre les etats impossible , impossible en utilisant un tableau de state
+- On a creer un authprovider , requireAuth guard pour les routes, et useAuth qui tous aide dans le login
+  -éviter le prop drilling → ne pas avoir à passer user à travers 5 niveaux de composants pour qu'une NavBar profonde y ait accès
+
+\*\*Note sur 10 de ma compréhension du jour : 7 /10
