@@ -64,6 +64,14 @@ l'importances des pwa et en quoi consiste chaque fichier de reglage
 -vu de l'importance de outlet lors de l'utilisation de routerlink
 -agencement efficace pour exiger auth sur un lien
 
-## Jour 5- 2026-05-31
+## Jour 5- 2026-06-9
 
 -mise en place de ci/cd avec cloudfare
+
+## SEMAINE 2
+
+## Jour 6- 2026-06-10
+
+-creation du overlay et bouton pour ouvrir le formulaire
+
+- creation du schema dexie pour la sauvegarde offline

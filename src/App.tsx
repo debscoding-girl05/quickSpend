@@ -6,13 +6,14 @@ import Stats from '@/pages/Stats';
 import Settings from '@/pages/Settings';
 import Layout from '@/components/Layout';
 import RequireAuth from '@/features/auth/RequireAuth';
+import BigAddButton from '@/features/expenses/BigAddButton';
 
-// Page d'accueil temporaire — sera remplacée au Jour 6 par le BigAddButton.
 function Home() {
   return (
     <main className="p-6">
       <h1 className="text-2xl font-bold">Accueil</h1>
-      <p className="text-ink-muted mt-2">Bouton de saisie principal à venir.</p>
+      <p className="text-ink-muted mt-2">Touche le + en bas pour saisir une dépense.</p>
+      <BigAddButton />
     </main>
   );
 }
