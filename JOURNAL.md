@@ -56,3 +56,10 @@ l'importances des pwa et en quoi consiste chaque fichier de reglage
   -éviter le prop drilling → ne pas avoir à passer user à travers 5 niveaux de composants pour qu'une NavBar profonde y ait accès
 
 \*\*Note sur 10 de ma compréhension du jour : 7 /10
+
+## Jour 4- 2026-05-31
+
+**Aujourd'hui j'ai appris :**
+-Introduction des nested routes + outlet
+-vu de l'importance de outlet lors de l'utilisation de routerlink
+-agencement efficace pour exiger auth sur un lien
