@@ -63,3 +63,5 @@ l'importances des pwa et en quoi consiste chaque fichier de reglage
 -Introduction des nested routes + outlet
 -vu de l'importance de outlet lors de l'utilisation de routerlink
 -agencement efficace pour exiger auth sur un lien
+
+## Jour 5- 2026-05-31
