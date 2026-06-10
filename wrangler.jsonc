@@ -1,0 +1,11 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "quickspend",
+  "compatibility_date": "2025-01-01",
+  "assets": {
+    "directory": "./dist",
+    // SPA mode : toute requête qui ne matche pas un asset → sert /index.html
+    // (équivalent moderne du /* /index.html 200 de _redirects)
+    "not_found_handling": "single-page-application"
+  }
+}
