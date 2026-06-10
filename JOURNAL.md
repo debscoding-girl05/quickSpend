@@ -65,3 +65,5 @@ l'importances des pwa et en quoi consiste chaque fichier de reglage
 -agencement efficace pour exiger auth sur un lien
 
 ## Jour 5- 2026-05-31
+
+-mise en place de ci/cd avec cloudfare
