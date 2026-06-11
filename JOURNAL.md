@@ -75,3 +75,11 @@ l'importances des pwa et en quoi consiste chaque fichier de reglage
 -creation du overlay et bouton pour ouvrir le formulaire
 
 - creation du schema dexie pour la sauvegarde offline
+
+## Jour 7- 2026-06-10
+
+- Ajout de categorie et note dans schema en utilisant zod
+- parse de zod throw une erreur car l'erreur bloque l'app et necessite un try catch
+- Safeparse quand a lui retounre et est utilisé for expected errors
+- Dans la bd il faut atomicité = soit toutes les écritures réussissent, soit aucune
+- value?.trim() || null est le combo standard pour "nettoyer une string optionnelle de form"

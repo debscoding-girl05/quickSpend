@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Add28Filled, Dismiss24Regular } from '@fluentui/react-icons';
+import ExpenseForm from './ExpenseForm';
 
 /**
  * Bouton "+" flottant + drawer (sheet) qui s'ouvre depuis le bas.
@@ -59,7 +60,7 @@ export default function BigAddButton() {
               </button>
             </div>
             
-            <p className="text-ink-muted">Formulaire à venir au Jour 7.</p>
+            <ExpenseForm onSuccess={() => setIsOpen(false)} />
           </div>
         </>
       )}
