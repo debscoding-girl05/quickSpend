@@ -1,5 +1,6 @@
 import { db, type LocalExpense, type SyncQueueEntry } from '@/lib/dexie';
 import useAuth from '@/hooks/useAuth';
+import { runSync } from '@/features/sync/runSync';
 import type { ExpenseInput } from './schema';
 
 /**
@@ -68,6 +69,10 @@ export function useAddExpense() {
       await db.expenses.add(expense);
       await db.syncQueue.add(queueEntry);
     });
+
+    // Tente une sync immédiate (push instantané si online).
+    // Fire & forget : pas de await — l'UI ne doit pas attendre le réseau.
+    void runSync();
 
     return expense;
   }

@@ -83,3 +83,12 @@ l'importances des pwa et en quoi consiste chaque fichier de reglage
 - Safeparse quand a lui retounre et est utilisé for expected errors
 - Dans la bd il faut atomicité = soit toutes les écritures réussissent, soit aucune
 - value?.trim() || null est le combo standard pour "nettoyer une string optionnelle de form"
+
+## Jour 7- 2026-06-10
+
+- la complexité doit matcher l'échelle. Une lib lourde pour un cas simple -sur-engineering.
+- finally = garantie de cleanup, même si la maison brûle.
+- FIFO + stop-au-premier-échec
+- Try/catch/finally pour robustesse
+- Provider qui orchestre 2 triggers (login + online)
+- Fire-and-forget pour optimistic UI
