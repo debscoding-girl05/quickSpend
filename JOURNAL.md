@@ -84,7 +84,7 @@ l'importances des pwa et en quoi consiste chaque fichier de reglage
 - Dans la bd il faut atomicité = soit toutes les écritures réussissent, soit aucune
 - value?.trim() || null est le combo standard pour "nettoyer une string optionnelle de form"
 
-## Jour 7- 2026-06-10
+## Jour 8- 2026-06-10
 
 - la complexité doit matcher l'échelle. Une lib lourde pour un cas simple -sur-engineering.
 - finally = garantie de cleanup, même si la maison brûle.
@@ -92,3 +92,9 @@ l'importances des pwa et en quoi consiste chaque fichier de reglage
 - Try/catch/finally pour robustesse
 - Provider qui orchestre 2 triggers (login + online)
 - Fire-and-forget pour optimistic UI
+
+## Jour 9- 2026-06-10
+
+- Afficher liste de dépenses offline comme online
+- Ajout indicateur sync en live
+- useLiveQuery (re-render réactif sur changement Dexie)
