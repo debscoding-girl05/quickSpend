@@ -93,8 +93,17 @@ l'importances des pwa et en quoi consiste chaque fichier de reglage
 - Provider qui orchestre 2 triggers (login + online)
 - Fire-and-forget pour optimistic UI
 
-## Jour 9- 2026-06-10
+## Jour 9- 2026-06-29
 
 - Afficher liste de dépenses offline comme online
 - Ajout indicateur sync en live
 - useLiveQuery (re-render réactif sur changement Dexie)
+
+## Jour 10- 2026-06-29
+
+- Setup vitest + fake-indexeddb (DB en mémoire pour tests)
+- Mock d'un module entier avec vi.mock + vi.mocked
+- Pattern AAA (Arrange / Act / Assert)
+- mockXxxOnce pour scénarios séquentiels
+- Vérifier l'effet ET le chemin (toHaveBeenCalledTimes)
+- 3 tests qui couvrent les chemins critiques de la sync queue
